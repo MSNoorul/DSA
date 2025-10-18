@@ -25,8 +25,8 @@ public class GreaterSumTreeBST {
 
 
     void main(){
-        String input= "2 1 6 N N 3 7";
-        String[] values = input.split(" ");
+        String input= "11, 2, 29, 1, 7, 15, 40, N, N, N, N, N, N, 35, N";
+        String[] values = input.split(",\\s*");
         Node root = Utiles.buildTree(values);
         Utiles.printTree(root);
         GreaterSumTreeBST gst = new GreaterSumTreeBST();
