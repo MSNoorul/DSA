@@ -1,15 +1,6 @@
 package Trees;
 import  java.util.*;
-class Node {
-    int val;
-    Node left, right;
 
-    public Node(int d)
-    {
-        val = d;
-        left = right = null;
-    }
-}
 
 public class KthSmallestElementBST {
 
